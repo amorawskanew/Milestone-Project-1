@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway,:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap |font-effect-fire-animation');
+.hero-container {
+    font-family: 'Italianno'
+}
+
+body {
+    margin: 0;
+
+    font-family: Sans-Serif;
+
+    /*Navigation bar*/
+}
+
+nav {
+
+    margin: 0;
+    padding: 0px;
+    background-color: #0080ff;
+}
+
+.logo,
+.container {
+    display: inline-block;
+
+
+}
+
+.logo {
+
+    margin: 20px;
+    color: #404040;
+}
+
+.container {
+
+    float: right;
+    margin: 0;
+
+
+}
+
+
+.cointainer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    float: right;
+
+}
+
+.container ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    padding: 20px 15px 20px 15px;
+    color: #404040;
+
+}
+
+.container ul li a:hover {
+
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+
+/*-----header-----*/
+
+header {
+    background-image: url(../images/outoor-shooting-haarlem.jpeg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header p {
+    margin: 0;
+}
+
+.hero-container {
+
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Great Vibes';
+
+
+}
+
+
+.buttons {
+
+    text-align: center;
+    padding-top: 400px;
+
+
+
+}
+
+.btn-what,
+.btn-who {
+    background-color: #0080ff;
+    display: inline-block;
+    color: #404040;
+    padding: 10px 25px;
+    margin: 15px 10px;
+    font-weight: 400;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.btn-who:hover {
+    background-color: magenta;
+    color: white;
+    transition: all .05s ease-in-out;
+
+}
+
+
+.btn-what:hover {
+    background-color: #66cc00;
+    color: white;
+    transition: all .05s ease;
+
+}
+
+/* ---Who we are  section*/
+
+
+
+
+.who-we-are {
+    width: 100%;
+    background-color: #0080ff;
+    text-align: center;
+    color: #404040;
+    font-size: 29px;
+    font-family: 'Great Vibes';
+   margin-top:30px;
+    margin-bottom:30px;
+
+    
+}
+.who-we-are .col-left,
+.who-we-are .col-right {
+    width: 50%;
+    float: left;
+
+}
+
+.who-we-are .col-left {
+    
+
+}
+
+.who-we-are .col-left img {
+
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.who-we-are .col-right {
+    background-color: #CCE5FF;
+    font-size: 16px;
+    text-align: center;
+    font-family: Sans-Serif;
+    width:40%;
+   padding-right:0%;
+ margin-left:0;
+}
+
+/* ---What we do section*/
+
+
+
+.what-we-do {
+    width: 10%;
+    background-color: #0080ff;
+    text-align: center;
+    color: #404040;
+    font-size: 29px;
+    font-family: 'Great Vibes';
+   margin-top:30px;
+    margin-bottom:30px;
+
+
+     
+
+
